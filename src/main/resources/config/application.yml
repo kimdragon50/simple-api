@@ -1,0 +1,30 @@
+#############
+### 공통 
+##############
+# embeded tomcat
+server:  
+  tomcat:
+    uri-encoding: UTF-8  
+
+
+     
+spring:
+  profiles:
+    active: local
+    
+  # APPLICATION SETTINGS (SpringApplication)
+  main:
+    show-banner: true    
+  # favicon
+  mvc.favicon.enabled: false  
+  # HTTP encoding (HttpEncodingProperties)
+  http:
+    encoding:
+      charset: UTF-8 # the encoding of HTTP requests/responses
+      enabled: true # enable http encoding support
+      force: true # force the configured encoding
+      
+ 
+  
+ 
+  

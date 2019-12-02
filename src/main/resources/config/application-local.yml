@@ -1,0 +1,15 @@
+##############
+### local
+##############
+
+server:
+ port: 8001 
+
+ 
+spring:
+  profiles: local  
+      
+
+
+
+    
