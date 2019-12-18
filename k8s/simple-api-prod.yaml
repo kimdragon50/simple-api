@@ -1,0 +1,30 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: simple-api-prod
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: simple-api
+  template:
+    metadata:
+      name: api
+      labels:
+        app: simple-api
+        role: api
+        env: prod
+       
+    spec:
+      containers:
+      - name: api
+        image: saturn203/simple-api:v3.0.7
+        resources:
+          limits:
+            memory: "500Mi"
+            cpu: "100m"
+        imagePullPolicy: Always
+        ports:
+        - name: api
+          containerPort: 9001
+ 
