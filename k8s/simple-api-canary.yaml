@@ -18,7 +18,7 @@ spec:
     spec:
       containers:
       - name: api
-        image: saturn203/simple-api:v3.0.7
+        image: saturn203/simple-api:v3.0.8
         resources:
           limits:
             memory: "500Mi"
@@ -28,3 +28,6 @@ spec:
         - name: api
           containerPort: 9001
  
+
+
+

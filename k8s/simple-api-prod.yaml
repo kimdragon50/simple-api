@@ -3,7 +3,7 @@ kind: Deployment
 metadata:
   name: simple-api-prod
 spec:
-  replicas: 3
+  replicas: 1
   selector:
     matchLabels:
       app: simple-api
