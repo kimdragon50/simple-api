@@ -20,15 +20,11 @@ spec:
       containers:
       - name: api
         image: saturn203/simple-api:v1.0.0
-        resources:
-          limits:
-            memory: "500Mi"
-            cpu: "100m"
         imagePullPolicy: Always
         ports:
         - name: api
           containerPort: 9001
-          
+
  
 
 
