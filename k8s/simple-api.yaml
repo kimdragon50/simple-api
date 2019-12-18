@@ -32,7 +32,7 @@ spec:
         # image: 328755931990.dkr.ecr.ap-northeast-2.amazonaws.com/simple-api:v1.0
         # image: saturn203/simple-api:v3.0.3
         image: asia.gcr.io/io203-101/simple-api:v3.0.4
-        image:imagePullPolicy: Always
+        imagePullPolicy: Always
         ports:
         - containerPort: 9001
  
