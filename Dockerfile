@@ -1,4 +1,4 @@
-FROM adoptopenjdk/openjdk8
+FROM  openjdk:8-jre-alpine
 
 
 ENV SPRING_PROFILES_ACTIVE dev
