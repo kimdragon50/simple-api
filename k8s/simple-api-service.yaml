@@ -11,6 +11,6 @@ spec:
   - name: http
     protocol: TCP
     port: 80
-    targetPort: 9001
+    targetPort: api
     
   type: LoadBalancer
