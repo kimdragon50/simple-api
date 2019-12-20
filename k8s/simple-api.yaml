@@ -24,7 +24,7 @@ spec:
   template:
     metadata:
       labels:
-        app: simple-apib
+        app: simple-api
         version: v1
     spec:
       containers:
