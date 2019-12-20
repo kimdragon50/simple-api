@@ -34,6 +34,7 @@ spec:
         image: saturn203/simple-api:v3.1.25
         # image: asia.gcr.io/io203-101/simple-api:v3.0.4
         imagePullPolicy: Always
+        
         ports:
         - containerPort: 9001
  
